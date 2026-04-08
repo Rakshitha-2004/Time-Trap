@@ -1,0 +1,9 @@
+body.dark-mode {
+  background: linear-gradient(135deg, #020617, #0f172a, #1e293b);
+  color: white;
+}
+
+body.light-mode {
+  background: linear-gradient(135deg, #f8fafc, #e2e8f0, #cbd5e1);
+  color: #111827;
+}

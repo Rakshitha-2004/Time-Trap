@@ -1,0 +1,45 @@
+/* ===== GLOBAL THEME VARIABLES ===== */
+
+:root {
+  --tt-bg: #020617;
+  --tt-text-main: #f8fafc;
+  --tt-text-soft: #94a3b8;
+  --tt-card-bg: rgba(15, 23, 42, 0.85);
+  --tt-card-border: rgba(255, 255, 255, 0.08);
+  --tt-subtle-bg: rgba(30, 41, 59, 0.7);
+}
+
+/* ===== LIGHT MODE ===== */
+
+body.light-mode {
+  --tt-bg: #f8fafc;
+  --tt-text-main: #111827;
+  --tt-text-soft: #475569;
+  --tt-card-bg: #ffffff;
+  --tt-card-border: rgba(0, 0, 0, 0.08);
+  --tt-subtle-bg: #f1f5f9;
+}
+
+/* ===== APPLY THEME ===== */
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: var(--tt-bg);
+  color: var(--tt-text-main);
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+/* ===== GLOBAL CARD STYLE ===== */
+
+.card,
+.dashboard-card,
+.monitor-card,
+.reports-card,
+.alerts-card {
+  background: var(--tt-card-bg);
+  border: 1px solid var(--tt-card-border);
+  border-radius: 16px;
+  padding: 16px;
+  transition: 0.3s ease;
+}

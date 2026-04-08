@@ -1,0 +1,204 @@
+.tt-navbar {
+  width: 100%;
+  min-height: 78px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 14px 28px;
+  background: rgba(6, 14, 28, 0.92);
+  backdrop-filter: blur(14px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  flex-wrap: wrap;
+}
+
+.tt-navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.tt-logo-box {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.tt-logo-icon {
+  width: 42px;
+  height: 42px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+  background: linear-gradient(135deg, rgba(14, 165, 233, 0.25), rgba(37, 99, 235, 0.25));
+  box-shadow: 0 0 12px rgba(37, 99, 235, 0.18);
+}
+
+.tt-logo-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.tt-logo-text {
+  margin: 0;
+  color: #f8fafc;
+  font-size: 1.4rem;
+  font-weight: 800;
+  line-height: 1.1;
+}
+
+.tt-logo-sub {
+  margin: 2px 0 0;
+  color: #94a3b8;
+  font-size: 0.82rem;
+}
+
+.tt-navbar-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  flex: 1;
+}
+
+.tt-link {
+  text-decoration: none;
+  color: #cbd5e1;
+  font-size: 0.95rem;
+  font-weight: 500;
+  padding: 10px 14px;
+  border-radius: 10px;
+  transition: 0.25s ease;
+}
+
+.tt-link:hover {
+  color: #38bdf8;
+  background: rgba(56, 189, 248, 0.1);
+}
+
+.tt-link.active-link {
+  background: linear-gradient(135deg, #0ea5e9, #2563eb);
+  color: #ffffff !important;
+  box-shadow: 0 0 14px rgba(37, 99, 235, 0.25);
+}
+
+.tt-navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.tt-info-chip {
+  padding: 9px 14px;
+  border-radius: 999px;
+  background: rgba(15, 23, 42, 0.95);
+  color: #cbd5e1;
+  font-size: 0.85rem;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  white-space: nowrap;
+}
+
+.tt-user-chip {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 12px;
+  border-radius: 999px;
+  background: rgba(59, 130, 246, 0.1);
+  border: 1px solid rgba(59, 130, 246, 0.14);
+  white-space: nowrap;
+}
+
+.tt-user-avatar {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #38bdf8, #2563eb);
+  color: white;
+  font-weight: 700;
+  font-size: 0.95rem;
+  flex-shrink: 0;
+}
+
+.tt-user-name {
+  color: #dbeafe;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.tt-nav-btn {
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  padding: 10px 14px;
+  border-radius: 12px;
+  background: rgba(15, 23, 42, 0.95);
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.25s ease;
+}
+
+.tt-nav-btn:hover {
+  transform: translateY(-1px);
+  background: rgba(30, 41, 59, 0.95);
+}
+
+.tt-logout-btn {
+  background: linear-gradient(135deg, #fb7185, #f43f5e);
+  border: none;
+}
+
+.tt-logout-btn:hover {
+  transform: scale(1.03);
+}
+
+@media (max-width: 1200px) {
+  .tt-navbar {
+    justify-content: center;
+  }
+
+  .tt-navbar-left,
+  .tt-navbar-links,
+  .tt-navbar-right {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .tt-navbar {
+    padding: 14px 16px;
+    gap: 14px;
+  }
+
+  .tt-logo-sub {
+    display: none;
+  }
+
+  .tt-logo-text {
+    font-size: 1.2rem;
+  }
+
+  .tt-link {
+    font-size: 0.88rem;
+    padding: 8px 12px;
+  }
+
+  .tt-info-chip {
+    font-size: 0.8rem;
+    padding: 8px 12px;
+  }
+
+  .tt-user-name {
+    font-size: 0.85rem;
+  }
+}

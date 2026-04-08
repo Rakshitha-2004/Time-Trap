@@ -1,0 +1,35 @@
+/* src/components/Card.css */
+.card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 12px 20px rgba(0,0,0,0.12);
+  padding: 20px;
+  width: 180px;
+  margin: 12px;
+  display: flex;
+  align-items: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 30px rgba(0,0,0,0.2);
+}
+
+.card-icon {
+  font-size: 28px;
+  color: #1d2671;
+  margin-right: 15px;
+}
+
+.card-info h4 {
+  margin-bottom: 8px;
+  font-size: 16px;
+  color: #1d2671;
+}
+
+.card-value {
+  font-size: 20px;
+  font-weight: bold;
+  color: #4caf50;
+}
