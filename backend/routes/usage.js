@@ -202,4 +202,13 @@ router.get("/productivity/:userId", async (req, res) => {
   }
 });
 
+router.get("/", async (req, res) => {
+  try {
+    const usage = await Usage.find().sort({ date: -1 });
+    res.json(usage);
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+});
+
 module.exports = router;
