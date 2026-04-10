@@ -1,52 +1,52 @@
-# ⏳ Time Trap
+**Time Trap**
 
 A MERN stack-based productivity tracking system that helps users monitor application usage, analyze time spent, and improve digital habits.
 
 ---
 
-## 📌 Project Description
+**Project Description**
 
 **Time Trap** is a web-based application designed to track how much time users spend on different applications. It provides detailed insights through reports and alerts, helping users manage their time efficiently and improve productivity.
 
 ---
 
-## 🎯 Features
+**Features**
 
-* 🔐 User Authentication (Login & Signup)
-* 📊 Dashboard with usage summary
-* 🖥️ Real-time App Monitoring
-* 📈 Reports with charts and analysis
-* ⚠️ Alerts when usage exceeds limits
-* 💾 Secure data storage using MongoDB
+*  User Authentication (Login & Signup)
+*  Dashboard with usage summary
+*  Real-time App Monitoring
+*  Reports with charts and analysis
+*  Alerts when usage exceeds limits
+*  Secure data storage using MongoDB
 
 ---
 
-## 🛠️ Tech Stack
+**Tech Stack**
 
-### Frontend
+**Frontend**
 
 * React.js
 * HTML
 * CSS
 * JavaScript
 
-### Backend
+**Backend**
 
 * Node.js
 * Express.js
 
-### Database
+**Database**
 
 * MongoDB
 
-### Tools
+**Tools**
 
 * VS Code
 * Git & GitHub
 
 ---
 
-## 📁 Project Structure
+**Project Structure**
 
 ```
 Time_Trap/
@@ -59,9 +59,9 @@ Time_Trap/
 
 ---
 
-## ⚙️ Installation & Setup
+**Installation & Setup**
 
-### 1. Clone the repository
+**1. Clone the repository**
 
 ```
 git clone https://github.com/Rakshitha-2004/Time-Trap.git
@@ -70,16 +70,16 @@ cd Time-Trap
 
 ---
 
-### 2. Install dependencies
+**2. Install dependencies**
 
-#### Frontend
+**Frontend**
 
 ```
 cd frontend
 npm install
 ```
 
-#### Backend
+**Backend**
 
 ```
 cd ../backend
@@ -88,15 +88,15 @@ npm install
 
 ---
 
-### 3. Run the application
+**3. Run the application**
 
-#### Start Backend
+**Start Backend**
 
 ```
 npm start
 ```
 
-#### Start Frontend
+**Start Frontend**
 
 ```
 cd ../frontend
@@ -105,7 +105,7 @@ npm start
 
 ---
 
-## 🌐 Usage
+**Usage**
 
 * Open browser and go to:
   `http://localhost:3000`
@@ -115,26 +115,26 @@ npm start
 
 ---
 
-## 📊 Future Enhancements
+**Future Enhancements**
 
-* 📱 Mobile application support
-* 🤖 AI-based productivity suggestions
-* 🚫 App blocking feature
-* ☁️ Cloud deployment
+*  Mobile application support
+*  AI-based productivity suggestions
+*  App blocking feature
+*  Cloud deployment
 
 ---
 
-## 👩‍💻 Developed By
+**Developed By**
 
 * Rakshitha B
 * Drashitha S
 
 ---
 
-## ⭐ Conclusion
+**Conclusion**
 
 Time Trap helps users become more aware of their digital habits and encourages better time management through tracking, analysis, and alerts.
 
 ---
 
-⭐ If you like this project, consider giving it a star!
+if you like this project, consider giving it a star!....:)
